@@ -2,6 +2,7 @@ package step3.view
 
 import step3.domain.CarName
 import step3.domain.CurrentCarStatus
+import step3.domain.port.OutputView
 
 class ConsoleOutputView : OutputView {
     override fun showResultTitle() {

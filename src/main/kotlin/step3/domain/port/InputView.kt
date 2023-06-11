@@ -1,4 +1,4 @@
-package step3.view
+package step3.domain.port
 
 import step3.domain.RacingRequirement
 

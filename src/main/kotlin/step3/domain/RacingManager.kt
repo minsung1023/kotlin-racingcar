@@ -1,11 +1,7 @@
-package step3
+package step3.domain
 
-import step3.domain.Car
-import step3.domain.ConditionalOperatingCarEngine
-import step3.domain.Racing
-import step3.domain.RacingRequirement
-import step3.view.InputView
-import step3.view.OutputView
+import step3.domain.port.InputView
+import step3.domain.port.OutputView
 
 class RacingManager(
     private val inputView: InputView,

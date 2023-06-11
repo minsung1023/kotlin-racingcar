@@ -1,15 +1,12 @@
-package step3
+package step3.domain
 
 import io.kotest.core.spec.style.FreeSpec
 import io.kotest.data.forAll
 import io.kotest.data.row
 import io.kotest.matchers.shouldBe
-import step3.domain.CarName
-import step3.domain.CurrentCarStatus
-import step3.domain.RacingRequirement
+import step3.domain.port.InputView
+import step3.domain.port.OutputView
 import step3.test.toCarName
-import step3.view.InputView
-import step3.view.OutputView
 
 class RacingManagerTest : FreeSpec({
     "자동차 경주 요구 사항을 입력받아 경주 수행 결과물을 요구사항(차량 이름, 시도 횟수, 우승자)에 맞게 출력한다." - {

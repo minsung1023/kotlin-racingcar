@@ -2,6 +2,7 @@ package step3.view
 
 import step3.domain.CarName
 import step3.domain.RacingRequirement
+import step3.domain.port.InputView
 
 class ConsoleInputView : InputView {
     override fun askRequirement(): RacingRequirement {
